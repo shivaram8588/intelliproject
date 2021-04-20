@@ -13,8 +13,8 @@
       # dest: /usr/share/tomcat/webapps
     - name: copying source code
       copy:
-       src: /home/linuxslave/workspace/Check_Deployment1/
-       dest: /var/lib/www/html/
+       src: /home/linuxslave/workspace/TEST/
+       dest: /usr/share/tomcat/webapps/
        
     #- name: download the war file to tomcat webapps server
      # shell: wget -o /usr/share/tomcat/webapps https://labdemoshiv.jfrog.io/artifactory/example-repo-local/
